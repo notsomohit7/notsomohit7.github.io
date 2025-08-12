@@ -711,6 +711,9 @@
   .text-justify {
     text-align: justify;
   }
+  .align-middle {
+    vertical-align: middle;
+  }
   .font-sans {
     font-family: var(--font-sans);
   }
