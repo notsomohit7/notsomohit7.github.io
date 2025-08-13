@@ -7,26 +7,31 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class=" bg-gray-800 font-sans">
-    <nav class="bg-black h-40">
-        <div class="container mx-auto px-6 py-4 flex justify-center space-x-12">
-            <a href="#main" class="text-gray-300 hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out">Main</a>
-            <a href="#about" class="text-gray-300 hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out">About Me</a>
-            <a href="#skills" class="text-gray-300 hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out">Skills</a>
-            <a href="#projects" class="text-gray-300 hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out">Projects</a>
-            
+    <nav class="bg-black h-18 px-6">
+        <div class="flex  justify-center sm:justify-center space-x-6 py-6">
+            <a href="#main" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out whitespace-nowrap">Main</a>
+            <a href="#about" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out whitespace-nowrap">About Me</a>
+            <a href="#skills" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out whitespace-nowrap">Skills</a>
+            <a href="#projects" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out whitespace-nowrap">Projects</a>
+            <a href="#contact" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 whitespace-nowrap">Contact</a>
         </div>
     </nav>
     <div class="container mt-5  mx-auto bg-gray-800 p-2"> 
         <div id="man"class="flex flex-col items-center justify-center mb-10 border-b-1 border-b-gray-300 p-5">
             <img src="..//materials/bk-oGACw_400x400.jpg" alt="mohit's pfp" class=" w-64 h-auto rounded-full mb-8 mt-2">
             <p class="text-gray-50 text-5xl font-bold  mb-4">Hello, i'm Mohit</p>
-            <p class=" text-gray-400 text-justify text-1.85xl mt-2 mb-20 max-w-md text-centergi">A passionate developer creating beautiful and functional web experiences. Welcome to my personal space.</p>
+            <p class=" text-gray-400 text-justify text-1.85xl mt-2 mb-2 max-w-md text-centergi">A passionate developer creating beautiful and functional web experiences. Welcome to my personal space.</p>
+            <div class="flex justify-center space-x-5 mt-6">
+                <a href="https://github.com/notsomohit7" aria-label="GitHub" class="text-gray-400 hover:text-blue-400 transition-colors"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/mohit-singh-6a190b317/" aria-label="LinkedIn" class="text-gray-400 hover:text-blue-400 transition-colors"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://x.com/notsomohit_" aria-label="Twitter" class="text-gray-400 hover:text-blue-400 transition-colors"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
         </div>
     
         <div id="about" class="flex flex-wrap justify-evenly items-center">
             <div class="flex flex-col items-center">
                 <h1 class="text-5xl text-blue-400 font-bold mb-10">About Me</h1>
-                <div class="flex  flex-col justify-center items-center p-6 bg-indigo-300/15 rounded-[10px] mb-15 shadow-lg shadow-gray-900 font-semibold">
+                <div class="flex  flex-col justify-center items-center p-10 bg-indigo-300/15 rounded-[10px] mb-15 shadow-lg shadow-gray-900 font-semibold">
                     <p class="text-[18px] text-white ">Hey there! I’m Mohit Singh — your friendly neighborhood bug fixer and feature creator.</p>
                     <p class="text-[18px] text-white mr-1">Currently on a quest to master the MERN stack, Tailwind CSS, and the occasional cup of tea<br />(essential dev fuel ☕)</p>
                 </div>
@@ -61,6 +66,14 @@
         </div>
 
     </div>
+    <footer id="contact" class="bg-gray-900 text-center py-12 px-5">
+        <h2 class="text-3xl font-bold text-blue-400 mb-4">Get In Touch</h2>
+        <p class="mb-8 max-w-md mx-auto text-white">I'm always open to discussing new projects or opportunities. Feel free to reach out!</p>
+        <a href="mailto:mohitascend07@gmail.com" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300">Say Hello</a>
+        <div class="mt-10 border-t border-gray-700 pt-6">
+            <p class="text-gray-500 text-sm">&copy; 2025 Mohit Singh. All Rights Reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
