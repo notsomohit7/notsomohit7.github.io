@@ -1,13 +1,13 @@
 <!doctype html>
-<html>
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="output.css" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class=" bg-gray-800 font-sans">
-    <nav class="bg-black h-18 px-6">
+    <div class="bg-gray-950/87 h-18 px-6 fixed top-0 z-50 w-full ">
         <div class="flex  justify-center sm:justify-center space-x-6 py-6">
             <a href="#main" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out whitespace-nowrap">Main</a>
             <a href="#about" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out whitespace-nowrap">About Me</a>
@@ -15,10 +15,10 @@
             <a href="#projects" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out whitespace-nowrap">Projects</a>
             <a href="#contact" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 whitespace-nowrap">Contact</a>
         </div>
-    </nav>
-    <div class="container mt-5  mx-auto bg-gray-800 p-2"> 
+    </div>
+    <div class="container mx-auto bg-gray-800 p-5 mt-10"> 
         <div id="man"class="flex flex-col items-center justify-center mb-10 border-b-1 border-b-gray-300 p-5">
-            <img src="..//materials/bk-oGACw_400x400.jpg" alt="mohit's pfp" class=" w-64 h-auto rounded-full mb-8 mt-2">
+            <img src="..//materials/bk-oGACw_400x400.jpg" alt="mohit's pfp" class=" w-64 h-auto rounded-full mb-8 mt-2 ">
             <p class="text-gray-50 text-5xl font-bold  mb-4">Hello, i'm Mohit</p>
             <p class=" text-gray-400 text-justify text-1.85xl mt-2 mb-2 max-w-md text-centergi">A passionate developer creating beautiful and functional web experiences. Welcome to my personal space.</p>
             <div class="flex justify-center space-x-5 mt-6">
@@ -28,8 +28,8 @@
             </div>
         </div>
     
-        <div id="about" class="flex flex-wrap justify-evenly items-center">
-            <div class="flex flex-col items-center">
+        <div id="about" class="flex flex-col flex-wrap justify-evenly items-center">
+            <div class="flex flex-col items-center transform transition-transform duration-300 hover:scale-110">
                 <h1 class="text-5xl text-blue-400 font-bold mb-10">About Me</h1>
                 <div class="flex  flex-col justify-center items-center p-10 bg-indigo-300/15 rounded-[10px] mb-15 shadow-lg shadow-gray-900 font-semibold">
                     <p class="text-[18px] text-white ">Hey there! I’m Mohit Singh — your friendly neighborhood bug fixer and feature creator.</p>
