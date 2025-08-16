@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio (Work in Progress)
+## Personal Portfolio (Work in Progress)
 
 Welcome to my personal portfolio project! 🚀  
 This site is currently a **work in progress**, and I’ll be continuously improving it as I learn and build new skills.  
@@ -19,11 +19,11 @@ It is built with:
 
 ---
 
-## 🛠️ Features (Planned & In Progress)
+## 🛠️ Features
 - Responsive layout  
 - Clean and minimal UI with Tailwind  
 - Navbar with smooth scroll  
-- Project showcase section  
+- Project showcase section(available soon)  
 - Contact section with form(coming soon)
 
 ---
