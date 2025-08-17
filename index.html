@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class=" bg-gray-800 font-sans">
-    <div class="bg-gray-950/87 h-18 px-6 fixed top-0 z-50 w-full ">
-        <div class="flex  justify-center sm:justify-center space-x-6 py-6">
+    <div class="bg-gray-950/87 h-18 px-6 fixed top-0 z-50 w-full backdrop-blur-xs">
+        <div class="flex justify-center sm:justify-center space-x-6 py-6">
             <a href="#main" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out whitespace-nowrap">Main</a>
             <a href="#about" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out whitespace-nowrap">About Me</a>
             <a href="#skills" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 ease-in-out whitespace-nowrap">Skills</a>
@@ -16,9 +16,13 @@
             <a href="#contact" class="text-white hover:text-blue-400 font-semibold transition-colors duration-300 whitespace-nowrap">Contact</a>
         </div>
     </div>
+    <div id="main" class="bg-yellow-500 px-6 w-full mt-18 h-6 text-black flex justify-center font-bold hover:bg-amber-300">
+        <p>This site is under maintainence</p>
+        <i class="fa-regular fa-hourglass p-1 pr-2 fa-s text-red-500"></i>
+    </div>
     <div class="container mx-auto bg-gray-800 p-5 mt-10"> 
-        <div id="man"class="flex flex-col items-center justify-center mb-10 border-b-1 border-b-gray-300 p-5">
-            <img src="..//materials/bk-oGACw_400x400.jpg" alt="mohit's pfp" class=" w-64 h-auto rounded-full mb-8 mt-2 ">
+        <div class="flex flex-col items-center justify-center mb-10 border-b-1 border-b-gray-300 p-5">
+            <img src="./materials/duckEdited.png" alt="mohit's pfp" class=" w-64 h-auto rounded-full mb-8 mt-2 border-3 border-transparent hover:border-white">
             <p class="text-gray-50 text-5xl font-bold  mb-4">Hello, i'm Mohit</p>
             <p class=" text-gray-400 text-justify text-1.85xl mt-2 mb-2 max-w-md text-centergi">A passionate developer creating beautiful and functional web experiences. Welcome to my personal space.</p>
             <div class="flex justify-center space-x-5 mt-6">
@@ -31,15 +35,15 @@
         <div id="about" class="flex flex-col flex-wrap justify-evenly items-center">
             <div class="flex flex-col items-center">
                 <h1 class="text-5xl text-blue-400 font-bold mb-10">About Me</h1>
-                <div class="flex  flex-col justify-center items-center p-10 bg-indigo-300/15 rounded-[10px] mb-15 shadow-lg shadow-gray-900 font-semibold transform transition-transform duration-300 hover:scale-110">
-                    <p class="text-[18px] text-white ">Hey there! I’m Mohit Singh — your friendly neighborhood bug fixer and feature creator.</p>
+                <div class="flex  flex-col justify-center items-center p-8 bg-indigo-300/15 rounded-[10px] mb-15 shadow-lg shadow-gray-900 font-[400] italic transform font-sans transition-transform duration-300 hover:scale-105">
+                    <p class="text-[18px] text-white ">Hey there! I’m Mohit Singh,your friendly neighborhood bug fixer and feature creator.</p>
                     <p class="text-[18px] text-white mr-1">Currently on a quest to master the MERN stack, Tailwind CSS, and the occasional cup of tea<br />(essential dev fuel ☕)</p>
                 </div>
             </div>
 
             <div class="flex flex-col justify-center items-center">
                 <h1 class="text-5xl text-blue-400 font-bold mb-10">My skills</h1>
-                <div id="skills" class="flex flex-wrap justify-center items-center p-6 bg-indigo-300/15 rounded-[10px] mb-15 shadow-lg shadow-gray-900 gap-10 transform transition-transform duration-300 hover:scale-110">
+                <div id="skills" class="flex flex-wrap justify-center items-center p-5 bg-indigo-300/15 rounded-[10px] mb-15 shadow-lg shadow-gray-900 gap-10 transform transition-transform duration-300 hover:scale-105">
 
                     <div class="flex flex-col items-center">
                         <i class="fa-brands fa-html5 fa-4x transition-transform duration-300 ease-in-out hover:scale-120" style="color: #f57c0a;"></i>
